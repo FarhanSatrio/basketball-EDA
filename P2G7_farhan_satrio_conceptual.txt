@@ -1,0 +1,25 @@
+Jawab pertanyaan berikut:
+
+Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+
+Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+
+Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+
+======================================================================================================================
+
+1. NoSQL atau "not only SQL" merupakan jenis basis data yang bentuknya tidak tabel atau tidak mengikuti struktur tabel pada basis data relasional,
+   dan Jenis basis data NoSQL melibatkan dokumen, kunci-nilai, wide-column, dan grafik, yang memberikan skema yang fleksibel
+
+2. NoSQL digunakan ketika data yang dimiliki tidak tersetruktur, membutuhkan skalabilitas yang tinggi dan membutuhkan fleksibilitas
+   sedangkan RDBMS digunakan ketika memiliki struktur data yang stabil, membutuhkan konsistensi yang tinggi serta memiliki hubungan antar data yang penting.
+
+3. a. MongoDB
+	MongoDB adalah basis data dokumen NoSQL. Ini merupakan alat sumber terbuka yang berbasis dokumen yang digunakan untuk penyimpanan data berkapasitas tinggi.
+	Basis data ini telah berkembang dan menjangkau banyak bisnis karena menawarkan fitur yang sesuai dengan tujuan mereka. MongoDB menggunakan model data berorientasi 
+	dokumen dan bahasa kueri yang tidak terstruktur. Ini memberikan skalabilitas dan fleksibilitas bagi pengembang untuk dengan mudah menggunakan dan mempelajari alat ini.
+   
+   b. Redis
+	Redis adalah penyimpanan struktur data berbasis memori yang bersifat open-source dengan lisensi BSD. Fungsinya meliputi penggunaan sebagai basis data, cache, dan 	message broker. 
+	Redis juga mendukung struktur data yang kaya seperti string, daftar, himpunan, dan hash, memberikan fleksibilitas yang besar dalam penyimpanan dan pengambilan 	informasi.
+	Redis sering digunakan untuk kasus penggunaan caching, manajemen sesi, dan sistem antrian pesan yang membutuhkan kinerja tinggi. Selain itu dukungan untuk berbagai 	bahasa 	pemrograman, sistem pub/sub untuk aplikasi messaging, kemampuan memasukkan jumlah data besar dengan mudah, dan instalasi di perangkat menambahkan keunggulan 	Redis.
